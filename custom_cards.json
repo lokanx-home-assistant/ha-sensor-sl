@@ -1,7 +1,7 @@
 {
     "sl-card": {
       "updated_at": "2019-03-13",
-      "version": "0.0.8",
+      "version": "0.0.9",
       "remote_location": "https://raw.githubusercontent.com/lokanx-home-assistant/ha-sensor-sl/dev/www/sl-card.js",
       "visit_repo": "https://github.com/lokanx-home-assistant/ha-sensor-sl",
       "changelog": "https://github.com/lokanx-home-assistant/ha-sensor-sl/releases/latest"
