@@ -1,7 +1,7 @@
 SL Traffic Information Sensor for Home Assistant
 ========================
 
-**This is a fork of fredrikbaberg SL sensor (https://github.com/fredrikbaberg/ha-sensor-sl).**
+**This is a fork of DSorlov SL sensor (https://github.com/DSorlov/ha-sensor-sl) which is a fork of fredrikbaberg SL sensor (https://github.com/fredrikbaberg/ha-sensor-sl).**
 
 This is a simple component for Home Assistant that can be used to create a "Departure board" for buses and trains in Stockholm, Sweden.  You have to install it as a custom component and you need to get your own API keys from SL / Trafiklab.
 
@@ -86,9 +86,9 @@ For update check of this sensor, add the following to your configuration.yaml. F
 ```
 custom_updater:
   component_urls:
-    - https://raw.githubusercontent.com/DSorlov/ha-sensor-sl/dev/custom_updater.json
+    - https://raw.githubusercontent.com/lokanx-home-assistant/ha-sensor-sl/dev/custom_updater.json
   card_urls:
-    - https://raw.githubusercontent.com/DSorlov/ha-sensor-sl/dev/custom_cards.json
+    - https://raw.githubusercontent.com/lokanx-home-assistant/ha-sensor-sl/dev/custom_cards.json
 ```
 
 **Lovelace card**
@@ -111,6 +111,8 @@ cards:
     departures: true
     deviations: true
     updated: true
+    adjust_times: true
+    hide_departured: true
     name: Departures
     entities:
       - sensor.sl_name
@@ -120,5 +122,9 @@ cards:
 - deviations: Render deviation section
 
 - updated: Render the last updated time
+
+- adjust_times: Recalculates time to departure to real time and not what was when latest updated
+
+- hide_departured: Already departed connections are hidden. Requires adjust_times to be set to true.
 
 - name: If specified it will not render titles per entitiy in the card, but rather have this as the card name. If not speficied it will render each sensors name

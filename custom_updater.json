@@ -3,8 +3,8 @@
       "updated_at": "2018-12-13",
       "version": "0.0.7",
       "local_location": "/custom_components/sensor/sl.py",
-      "remote_location": "https://raw.githubusercontent.com/DSorlov/ha-sensor-sl/dev/custom_components/sensor/sl.py",
-      "visit_repo": "https://github.com/DSorlov/ha-sensor-sl",
-      "changelog": "https://github.com/DSorlov/ha-sensor-sl/releases/latest"
+      "remote_location": "https://raw.githubusercontent.com/lokanx-home-assistant/ha-sensor-sl/dev/custom_components/sensor/sl.py",
+      "visit_repo": "https://github.com/lokanx-home-assistant/ha-sensor-sl",
+      "changelog": "https://github.com/lokanx-home-assistant/releases/latest"
     }
 }

@@ -9,6 +9,15 @@ The format is based on [Keep a Changelog][keep-a-changelog]
 
 - No work items present
 
+## [v0.0.8] (2019-03-13)
+
+### Added
+- Added boolean parameter adjust_times, when set to true it recalculates time to departure to real time and not what was when latest updated.
+- Added boolean parameter hide_departured, when set to true already departed connections are hidden. Requires adjust_times to be set to true.
+
+### Changed
+- Rendering strategy
+
 ## [v0.0.7] (2018-12-13)
 
 ### Added
