@@ -5,6 +5,6 @@
       "local_location": "/custom_components/sensor/sl.py",
       "remote_location": "https://raw.githubusercontent.com/lokanx-home-assistant/ha-sensor-sl/dev/custom_components/sensor/sl.py",
       "visit_repo": "https://github.com/lokanx-home-assistant/ha-sensor-sl",
-      "changelog": "https://github.com/lokanx-home-assistant/releases/latest"
+      "changelog": "https://github.com/lokanx-home-assistant/ha-sensor-sl/releases/latest"
     }
 }
